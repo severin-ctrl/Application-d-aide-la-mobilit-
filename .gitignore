@@ -1,0 +1,6 @@
+# Secrets et config locale (ne jamais commiter)
+Appli/config/db.local.php
+Appli/config/api_keys.php
+.env
+.env.*
+!.env.example

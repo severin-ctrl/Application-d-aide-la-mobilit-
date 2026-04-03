@@ -1,0 +1,11 @@
+<?php
+/**
+ * Copiez ce fichier en db.local.php et renseignez vos identifiants MySQL (IUT / univ-lorraine).
+ * db.local.php est ignoré par Git — ne le commitez pas.
+ */
+return [
+    'host' => 'devbdd.iutmetz.univ-lorraine.fr',
+    'dbname' => 'e40250u_sae301',
+    'username' => 'e40250u_appli',
+    'password' => 'votre_mot_de_passe',
+];

@@ -1,0 +1,19 @@
+<?php
+/**
+ * Configuration des clés API externes
+ * 
+ * IMPORTANT : Ce fichier ne doit PAS être commité sur git
+ * Copiez ce fichier en api_keys.php et remplissez vos clés
+ * 
+ * Principe SOLID appliqué : Single Responsibility Principle (SRP)
+ * Ce fichier a une seule responsabilité : stocker les clés API
+ */
+
+return [
+    // Clé API Transport for London (TfL)
+    // Obtenir une clé gratuite sur : https://api.tfl.gov.uk/
+    'tfl' => 'YOUR_TFL_API_KEY_HERE',
+    
+    // Ajouter d'autres clés API ici pour les futures villes
+    // 'autre_ville' => 'YOUR_API_KEY_HERE'
+];
