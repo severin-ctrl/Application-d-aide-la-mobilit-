@@ -26,14 +26,6 @@ Le sujet laisse la porte ouverte à des **évolutions** (profil, préférences, 
 | Parkings | Flux WFS Eurométropole de Metz ; Londres via API TfL (clé requise) |
 | Itinéraires | OSRM (service public de routage) |
 
-## Démarrage rapide
-
-1. Servir le dossier `Appli/` avec un serveur web compatible PHP (Apache, etc.).
-2. **Base de données** : copier `Appli/config/db.local.php.example` vers `Appli/config/db.local.php` et renseigner hôte, base, utilisateur et mot de passe (fichier **non versionné**).
-3. **Clés API** (optionnel, pour Londres) : copier `Appli/config/api_keys.php.example` vers `Appli/config/api_keys.php` et y mettre votre clé TfL (fichier **non versionné**).
-
-Sans `db.local.php`, la connexion MySQL ne peut pas fonctionner. Sans clé TfL, la ville **Metz** reste utilisable.
-
 ## Structure utile
 
 - `Appli/index.php` — page principale (carte, recherche, guidage)
